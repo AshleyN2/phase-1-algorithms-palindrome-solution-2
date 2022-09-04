@@ -18,6 +18,9 @@ iterate from the beginning of the string to the middle of the string
     if the letters don't match, return false
 
 if we reach the middle, and all the letters match, return true
+
+this code is more efficient with regards to time and space complexity,
+since it creates fewer new variables and only iterates through half of the string
 */
 
 /*
